@@ -4,14 +4,14 @@ Created on Sat Jun 12 17:33:15 2021
 
 @author: Abhay
 """
-
-# -*- coding: utf-8 -*-
-"""
-Created on Sat April 4 01:46:06 2020
-@author: Abhinav
-"""
-
 print("hello world")
+print("hello \nworld")
+print("hello \tworld")
+
+#triple codes using forSpanning strings over multiple lines.
+name = ''' Hey there, 
+Abhay this side !!'''
+print("name")
 
 #Numbers
 #a=3 , b=5  #a and b are number objects 
@@ -38,10 +38,13 @@ print (type(l))
 #Lets try mutation 
 l[1] = "Bye"
 print (l)
-
+#create empty list
+emp = []
+print(type(emp))
 #Tuple
 t  = ('hi', 'python', 2, 4) 
 t 
+#slicing in python is a mechanism to select a range of items from sequence
 print (t[1:]);  
 print (t[0:2]);  
 print (t);  
@@ -51,6 +54,10 @@ print (type(t))
 #Lets try mutation 
 t[1] = "Bye"
 print (t)
+
+#mutation
+nest = (l,t)
+print(nest)
 
 #Dictionary
 d = {1:"Jimmy", 2:'Alex', 3:'john', 4:'mike'}
