@@ -59,8 +59,7 @@ current_lift_floor = 0
 lift_button_pressed = 5
 while current_lift_floor < lift_button_pressed:
     print(current_liftO_button)
-    current_lift_floor = current_lift_floor + 1
-    
+    current_lift_floor = current_lift_floor + 1    
 print(current_lift_floor)
 print("you have reached over floor!")    
 
@@ -95,7 +94,7 @@ for x in numbers:
         continue
     print(x)
 #while loop will let you execute a set of statement while it is true.
- i=1
+i=1
  while i<9:
      print(i)
      i +=1
