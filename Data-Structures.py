@@ -4,12 +4,18 @@ Created on Wed Sep 22 21:38:04 2021
 
 @author: Singh
 """
+x = 10
+print(x)
+#where x is a varible entities of a program that hold a value.
+#A value(10) is a data type,the Data-type is basically the type od value that
+#you assign to the variable.
+
 print("hello world")
 print("hello \nworld")
 print("hello \tworld")
 
-name = ''' Hey there,
-Abhay this side !!'''
+name = ''' Hey there, #triple codes using forSpanning strings over multiple lines.
+Abhay this side !!''' 
 print("name")
 
 #Numbers
@@ -20,6 +26,7 @@ str1 = 'Hello Students' #string str1
 str2 = ' how are you' #string str2  
 str1
 str2
+#slicing in python is a mechanism to select a range of items from sequence
 print (str1[0:5]) #printing first five character using slice operator  
 (str1[0:5])
 print (str1[4]) #printing 5th character of the string  
