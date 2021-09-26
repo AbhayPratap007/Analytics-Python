@@ -49,7 +49,7 @@ print(friend1,friend2,friend3,friend4,friend5)
 myfriend=["Danielle Campbell","Melissa Benoist","scarlet johans","katherine langford","Catherine Tresa Alexander"]
 #print(my_friend[2])
     
-if "Catherine Tresa Alexander" is my friend:
+if "Catherine Tresa Alexander" == myfriend:
     print("Catherine Tresa Alexander is myfriend list")
 else:
     print("Catherine Tresa Alexander is not myfriend list")
@@ -57,7 +57,7 @@ else:
 #loop:- When you want to repeat a block of code a number of times.
 current_lift_floor = 0
 lift_button_pressed = 5
-while current_lift_floor = lift_button_pressed:
+while current_lift_floor < lift_button_pressed:
     print(current_liftO_button)
     current_lift_floor = current_lift_floor + 1
     
