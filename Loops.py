@@ -15,6 +15,15 @@ i=0
 for i in range(0,10):
     print(i,end =',')
 
+    # add all items in list without using sum function
+my_list = [10, 1, 8, 3, 5]
+total = 0
+
+for i in my_list:
+    total += i
+
+print(total)
+
 #Example2:printing the table of the given number
 i=1
 num = int(input("Enter a number:"))
