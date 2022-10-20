@@ -14,7 +14,7 @@ print("hello world")
 print("hello \nworld")  #print in next line
 print("hello \tworld")  #print with tab
 
-name = ''' Hey there, #triple codes using forSpanning strings over multiple lines.
+name = ''' Hey there, #triple codes using for Spanning strings over multiple lines.
 Abhay this side !!''' 
 print("name")
 
