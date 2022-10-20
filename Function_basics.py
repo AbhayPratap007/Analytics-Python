@@ -56,6 +56,13 @@ print(s)
 s = sum(list_1, 10)  
 print(s) 
 
+#Sum of all items without using sum function.
+s=0
+list=[1,2,3]
+for i in list:
+  s=s+i
+ print(s)
+
 #len(): Returns the length (the number of items) of an object.
 strA = 'Python'  
 print(len(strA))  
