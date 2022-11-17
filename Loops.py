@@ -38,6 +38,20 @@ for i in range(0,n):
     for j in range(0,i+1):
         print("*",end="")
 
+#using def function
+def pattern(n):
+   for i in range(n):
+      for j in range(i+1):
+         # printing stars
+         print("* ",end="")
+      print()
+ 
+# take inputs
+n = int(input('Enter the number of rows: '))
+
+# calling function
+pattern(n)
+
 #Exampl4: Else statement with For loop
 for i in range(0,5):
     print(i)
