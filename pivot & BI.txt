@@ -1,0 +1,28 @@
+#for pivot table then make chart it
+
+import pandas as pd
+
+df=pd.read_csv("data.csv")
+print(df) 
+
+#descriptive stastics
+df.describe()
+
+#pivot table 
+
+pip install pivottablejs
+
+from pivottablejs 
+import  pivot_ui
+
+pd.pivot_table(df, 
+               values='State/Union Territory',
+               index=['2004-05','2005-06','2006-07','2007-08','2008-09'], 
+               aggfunc=['sum']
+              )
+
+#Business tool
+
+pivot_ui(df)
+
+
