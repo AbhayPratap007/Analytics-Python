@@ -12,8 +12,8 @@ df.describe()
 
 pip install pivottablejs
 
-from pivottablejs 
-import  pivot_ui
+from pivottablejs import  pivot_ui 
+
 
 pd.pivot_table(df, 
                values='State/Union Territory',
