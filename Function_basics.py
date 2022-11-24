@@ -148,7 +148,109 @@ new_list = list(map(lambda x:x*3,List))
 # this will return the triple of each item of the list and add it to new_list  
 print(new_list)  
 
+#-------------------------def function()----------------
+#Parameter – It is data or variable defined inside parenthesis – (). 
+#Argument – It is the value of parameter.
+#Creating a Function – In Python, a function is created by using def keyword.
+#def – It is Python’s built-in function. It used to create a function in Python.
+
 #def function
 def my_function(x):
   return 5 * x
 print (my_function(3))
+
+#print hello
+def func():
+    print ('Hello Print')
+func()
+
+#creating Argument:- A argument is passed after the function name and inside the parentheses. An argument can be passed as many as want to pass. A function treated argument as value of parameter or an information into function.
+
+def my_func(i):
+     print(i)
+my_func('Hello, Python World') 
+
+def my_func(i):
+     print(i + 5)
+my_func(10)
+
+#Number of Arguments – A function normally called by default number of arguments, means the number of argument which want to pass but if a function doesn’t call to its equal number of argument then Python will give us an error.
+def my_func(x , y):
+     print(x+y)
+my_func(5) 
+my_func(12) 
+
+#Calling a function with its equal number of arguments.
+
+def my_func(x , y):
+     print(x+y)
+my_func(5,10) 
+
+#Arbitrary Arguments, *args – When it is not defined how many parameters should be passed, then add an asterisk (*) before the name of the parameter.  It will make sure function to receive the number of tuple argument according to its requirement.
+def my_func(x):
+     print(x[0])
+my_func(5,10,15) 
+#If the number of arguments is not defined, add an asterisk (*) before the parameter name.
+def my_func(*x):
+     print(x[0])
+my_func(5,10,15) 
+
+#Keyword Argument – An argument can be sent as key-value pair. In this way argument order doesn’t matter. In other words, a keyword is a value defined on the left-hand side and an argument is the value defined on the right-hand side followed by assignment statement (=)
+def my_func(x,y):
+     print('The sum of all argument is:' , x+y) 
+my_func(y=5, x=10) 
+
+#Arbitrary Keyword Arguments, **kwargs – If it is not defined that how many keyword arguments (kwargs) should be passed to a function then add two asterisks (**) before the parameter name. It will make sure function to receive the dictionary of arguments according to its need.
+def my_func(**x):
+     print('The number is', x['z'])
+my_func(x = 5, y = 10, z = 15) 
+
+#Default Parameter Value – When a function called without parameter then it takes default parameter.
+# Calling a function with its default parameter.
+
+def my_func(x = 'Alex'):
+     print('My name is ' + x)
+my_func() 
+
+#Calling a function with both default parameter and additional key value pair.
+
+def my_func(x = 'Alex'):
+      print('My name is ' + x)
+my_func('Elisa')
+my_func()
+my_func('Kily') 
+
+#Passing data types as an Argument – An argument can receive any kind of data types such as list, tuple, set and dictionary etc. it will be treated as the same data type inside the function.
+
+#Passed an argument of elements as tuple to function.
+def my_func(n):
+     for x in n:
+         print(x)
+z = (1,2,3,4)
+my_func(z) 
+
+#Return values – To let return a function its value use ‘return’ keyword.
+
+def my_func(x):
+     return 3 + x
+print(my_func(4))
+print(my_func(6)) 
+
+#pass Statement – A function statement can not be empty, but in case it is necessary to leave empty then use pass keyword to leave a function statement empty.
+#Use pass keyword to leave a function statement empty.
+
+def my_func():
+      pass
+  
+  #Recursion – It means when a defined function calls itself.
+  #Calling a function to itself.
+  
+  def my_func(x):
+     if x > 0:
+         r = x + my_func(x-1)
+         print(r)
+     else:
+         r = 0
+     return r
+ print( "\nRecursion Example Results" )
+ my_func(8)
