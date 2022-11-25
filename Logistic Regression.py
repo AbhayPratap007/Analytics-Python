@@ -141,7 +141,7 @@ titanic_data_1.head(5)
 #Backward elimination is a feature selection technique while building a machine learning model. It is used
 #to remove those features that do not have significant effect on dependent variable or prediction of output.
 
-#Step: 1- Preation of Backward Elimination:
+#Step: 1- Creation of Backward Elimination:
 #Importing the library:
 import statsmodels.api as sm
 
