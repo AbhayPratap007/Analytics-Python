@@ -58,10 +58,37 @@ else:
 current_lift_floor = 0
 lift_button_pressed = 5
 while current_lift_floor < lift_button_pressed:
-    print(current_liftO_button)
+    print(current_lift_floor)
     current_lift_floor = current_lift_floor + 1    
 print(current_lift_floor)
-print("you have reached over floor!")    
+print("you have reached over floor!") 
+
+#----------------------------------------------------------
+current_lift_floor = 0
+lift_button_pressed = 5
+while current_lift_floor < lift_button_pressed:
+    print(current_lift_floor)
+    if current_lift_floor==0:
+        pass
+        print("↓")
+        print("You have reached First floor !!")
+    if current_lift_floor==1:
+        pass
+        print("↓")
+        print("You have reached Second floor !!")
+    if current_lift_floor==2:
+        pass
+        print("↓")
+        print("You have reached Third floor !!")
+    if current_lift_floor==3:
+        pass
+        print("↓")
+        print("You have reached Fourth floor !!")     
+    if current_lift_floor==4:
+        pass
+        print("↓")   
+    current_lift_floor = current_lift_floor + 1 
+print("5 -> Stop, You have reached over floor !!")  
 
 myfriend=["Danielle Campbell","Melissa Benoist","scarlet johans","katherine langford","Catherine Tresa Alexander"]
 print("my friends are", myfriend)
