@@ -65,6 +65,7 @@ regressor.intercept_
 #Step: 1- Preparation of Backward Elimination:
 
 #Importing the library:
+#Statsmodels is a Python package that allows users to explore data, estimate statistical models, and perform statistical tests.
 import statsmodels.api as sm
 
 #Adding a column in matrix of features:
