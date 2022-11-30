@@ -1,0 +1,46 @@
+1- Create a funtion that takes two arguments and returns the greater of the two ?
+
+def comp(a,b):
+     if a>b:
+         return a greater
+     else:
+        return b greater 
+return greater
+
+comp(20,40)
+
+2- Write a for loop to print all the odd numbers between 10 and 50 ?
+
+i = 0
+for i in range(11,49,2):
+    print(i,end=' ')
+
+
+3- Write a for loop to print all the numbers between 10 and 50 ?
+
+for i in range(10,50):
+    print(i,end=' ')
+
+4- Take a variable x and print "Even" if the number is divisible by 2, otherwise print "odd" ?
+
+x=int(input("enter the number of x"))
+if (x%2==0):
+    print("even")
+else:
+    print("odd")
+
+5- Take a variable y and print "Grade A" if y is greater thabn 90, "Grade B" if y is greater than 60 but less than or equal to 90 and "Grade F"     otherwise ?
+if (y>90):
+	print("Grade A")
+elif(y>60 and y<=90):
+	print("Grade B")
+else:
+	print("Grade F")
+
+6- Explain Lambda Function ?
+
+tables = [lambda x=x: x*10 for x in range(1, 11)]
+ 
+for table in tables:
+    print(table())
+
