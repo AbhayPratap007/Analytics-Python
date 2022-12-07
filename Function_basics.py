@@ -63,6 +63,14 @@ for i in list:
   s=s+i
  print(s)
 
+#Find Average
+list=[44,56,-1,-6,-2,19, 15, 18, 12, 97, 12, -100, -5, 5,23]
+tot=0
+for i in list:
+  tot=tot+i
+Average = tot/len(list)
+print(Average)
+
 #len(): Returns the length (the number of items) of an object.
 strA = 'Python'  
 print(len(strA))  
