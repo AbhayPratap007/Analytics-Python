@@ -44,3 +44,19 @@ tables = [lambda x=x: x*10 for x in range(1, 11)]
 for table in tables:
     print(table())
 
+#-----------------------------------return 5 high largest number----------------
+
+# Using Sorted and slicing
+
+def sort_list(arr:list):
+    max_five = sorted(arr,reverse=True)
+    return max_five[:5]
+results = [12,34,67,98,90,68,55,37]
+print(sort_list(results))
+
+# Using heapq
+
+import heapq
+
+results = [12,34,67,98,90,68,55,37]
+print(heapq.nlargest(5,results))
