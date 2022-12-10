@@ -8,7 +8,7 @@ Created on Wed Sep 22 21:53:11 2021
 
 # Importing the libraries
 
-'import matplotlib.pyplot as plt'
+import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
@@ -145,4 +145,5 @@ print(regressor.coef_)
 #Calculating the intercept:
 print(regressor.intercept_)
 
-#Regression Eq'n: Profit = 48416 + 0.85*R&D_Spend
+#Regression Eq'n: Profit = 48416 + 0.85*R&D_Spend    (y = mx+c)
+#Linear Regression: Dev(y) = coefficient(m)*(idv)x + Intercept(c)
