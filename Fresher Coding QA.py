@@ -2,7 +2,7 @@
 """
 Created on Fri Dec  9 11:50:33 2022
 
-@author: ankit
+@author: abhay
 """
 
 #------------Python Coding Interview Questions For Freshers----------------
