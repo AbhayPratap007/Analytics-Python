@@ -14,8 +14,8 @@ print("hello world")
 print("hello \nworld")  #print in next line
 print("hello \tworld")  #print with tab
 
-name = ''' Hey there, #triple codes using for Spanning strings over multiple lines.
-Abhay this side !!''' 
+name = ''' Hey there, 
+Abhay this side !!''' #triple codes using for Spanning strings over multiple lines.
 print("name")
 
 #Numbers
