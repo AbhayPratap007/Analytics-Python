@@ -5,6 +5,8 @@ Created on Wed Sep 22 21:54:00 2021
 @author: Singh
 """
 #-------------Logistic Regression------------------------------
+#Project - Titanic Passanger Survived Predictions
+
 #Import Libraries
 import pandas as pd
 import seaborn as sns
