@@ -23,8 +23,8 @@ print("name")
 
 #String
 str1 = 'Hello Students' #string str1
+print(str1)
 str2 = ' how are you' #string str2  
-str1
 str2
 #slicing in python is a mechanism to select a range of items from sequence
 print (str1[0:5]) #printing first five character using slice operator  
@@ -43,7 +43,7 @@ print (l * 3);
 print (type(l))
 #Lets try mutation 
 l[1] = "Bye"
-print (l)
+print(l)
 #create empty list
 emp = []
 print(type(emp))
@@ -157,7 +157,7 @@ d = {'Name':['Alisa','Bobby','Cathrine','Alisa','Bobby','Cathrine',
                                'Mathematics','Mathematics','Mathematics','Science','Science','Science'],
                                'Score':[62,47,55,74,31,77,85,63,42,67,89,81]}
 
-d
+print(d)
 
 df = pd.DataFrame(d,columns=['Name','Exam','Subject','Score'])
 df
