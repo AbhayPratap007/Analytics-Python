@@ -70,3 +70,7 @@ print (pd.merge(EmpList_1, EmpList_2, on='Name', how='left'))
 #Returns all rows from right table and any rows with matching keys from left table.
 print (pd.merge(EmpList_1, EmpList_2, on='Name', how='right'))
 
+#Example 3:
+str1 = ['I','Love','Journey']
+str2=' '.join(str1)
+print(str2)
