@@ -54,3 +54,12 @@ print("Hello, my name is",name)
 name = "Abhay !!"
 print(f"Hello, my name is {name}")
  
+#--------------------------From collections import Counter in Python------------
+
+from collections import Counter
+
+list1 = ['x', 'y', 'z', 'x', 'x', 'x', 'y', 'z']
+
+res = Counter(list1)
+print(res)
+print(type(res))
