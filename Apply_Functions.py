@@ -58,3 +58,29 @@ print (df.applymap(lambda x:x*2))
 #Example2:
 import math as m
 print (df.applymap(lambda x:m.sqrt(x)))
+
+#check odd or even no.
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+   print("{0} is Even".format(num))
+else:
+   print("{0} is Odd".format(num))
+#------------   
+def evenoddfun(num):
+    if num%2==0:
+        print(num,'no is even')
+    else:
+        print(num,'no is odd')
+evenoddfun(21)
+#-------------------------
+input_list = [14, 18, 31, 11, 13, 87, 103,
+              27, 64, 96, 22, 48, 17, 15, 11, 28, 47]
+
+new_even_list = [m for m in input_list if m % 2 == 0]
+new_odd_List = [m for m in input_list if m % 2 != 0]
+
+print("Even numbers are available in list are :")
+print(new_even_list)
+print("Odd numbers are available in list are :")
+print(new_odd_List)
