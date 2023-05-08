@@ -59,14 +59,14 @@ print (df.applymap(lambda x:x*2))
 import math as m
 print (df.applymap(lambda x:m.sqrt(x)))
 
-#check odd or even no.
+#Ex-1. check odd or even no.
 num = int(input("Enter a number: "))
 
 if num % 2 == 0:
    print("{0} is Even".format(num))
 else:
    print("{0} is Odd".format(num))
-#------------   
+#Ex-2. ------------   
 def evenoddfun(num):
     if num%2==0:
         print(num,'no is even')
