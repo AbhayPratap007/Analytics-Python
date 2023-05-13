@@ -122,7 +122,7 @@ for x in numbers:
     print(x)
 #while loop will let you execute a set of statement while it is true.
 i=1
- while i<9:
+while i<9:
      print(i)
      i +=1
      
