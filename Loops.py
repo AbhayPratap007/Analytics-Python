@@ -56,6 +56,16 @@ pattern(n)
 for i in range(0,5):
     print(i)
 else:print("for loop completely exhausted, since there is no break.")
+    
+#example for else if:
+arrive_time=10
+sleep_time=12
+if arrive_time>sleep_time:
+    print('Cook')
+elif arrive_time==11:
+    print('Order')
+else:
+    print('Sleep')
 
 #------------While Loop-------------
 # while loop is to be used in the scenario where we don't know the number of iterations in advance. 
