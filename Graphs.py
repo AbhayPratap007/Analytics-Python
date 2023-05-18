@@ -86,6 +86,7 @@ value4=[59,73,70,16,81,61,88,98,10,87,29,72,16,23,72,88,78,99,75,30]
 
 box_plot_data=[value1,value2,value3,value4]
 plt.boxplot(box_plot_data,patch_artist=True,labels=['course1','course2','course3','course4'])
+#plt.boxplot(box_plot_data,patch_artist='0',labels=['course1','course2','course3','course4'])
 #argument "patch_artist=True", fills the boxplot and argument "label" takes label to be plotted.
 
 #Horizontal box plot in python with different colors:
