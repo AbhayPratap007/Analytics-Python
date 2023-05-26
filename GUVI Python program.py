@@ -23,12 +23,12 @@ Yourspeed = 100
 speedlimit = 40
 if Yourspeed>speedlimit:
     print("you are going in speed limit") #if the condition is true then the result will print otherwise not. 
-    
+elif Yourspeed==speedlimit:
+    print("you are traveling in the exact speed limit")
 else:
    print("you are trading in safe speed")#print what condition is true
     
-elif Yourspeed==speedlimit:
-    print("you are traveling in the exact speed limit")
+
     
 #for chat
 
