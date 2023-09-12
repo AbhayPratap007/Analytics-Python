@@ -72,3 +72,4 @@ tree.plot_tree(classifier,class_names=cn,filled = True)
 
 #if you want save figure, use savefig method in returned figure object.
 fig.savefig('Skilledge-Python-April-batch.png')
+plt.savefig('/path/to/your/directory/plot.png')
