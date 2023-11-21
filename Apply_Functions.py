@@ -78,7 +78,7 @@ input_list = [14, 18, 31, 11, 13, 87, 103,
               27, 64, 96, 22, 48, 17, 15, 11, 28, 47]
 
 new_even_list = [m for m in input_list if m % 2 == 0]
-new_odd_List = [m for m in input_list if m % 2 != 0]
+new_odd_List  = [m for m in input_list if m % 2 != 0]
 
 print("Even numbers are available in list are :")
 print(new_even_list)
